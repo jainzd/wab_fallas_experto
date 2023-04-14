@@ -1,0 +1,910 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "18780720e8b-layer-2",
+      "label": "Fallas Valencia 2023",
+      "refresh": false,
+      "url": "https://services.arcgis.com/oSryZQrvtpGJ3f3s/arcgis/rest/services/Fallas_Valencia_2023/FeatureServer/0",
+      "id": "18780720e8b-layer-2",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA9.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 19.5,
+          "height": 19.5
+        },
+        "clusterSymbol": {
+          "color": [
+            194,
+            240,
+            255,
+            255
+          ],
+          "outline": {
+            "color": [
+              101,
+              179,
+              200,
+              255
+            ],
+            "width": 1.5,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "clusteringEnabled": true,
+        "displayFeatureCount": true,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA9.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 21,
+          "height": 21
+        },
+        "clusterType": "CustomCluster",
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "0": {
+              "root": {
+                "attributeInfo": {
+                  "type": "sizeInfo",
+                  "valueExpression": "$view.scale",
+                  "stops": [
+                    {
+                      "size": 40,
+                      "value": 1128.4971765
+                    },
+                    {
+                      "size": 32,
+                      "value": 9027.977411
+                    },
+                    {
+                      "size": 16,
+                      "value": 72223.819286
+                    },
+                    {
+                      "size": 8,
+                      "value": 577790.5542885
+                    }
+                  ]
+                },
+                "isNumeric": true,
+                "idSource": "$view.scale",
+                "id": "69d17ad7e61d54df025c5c639d87a61a",
+                "hasExpr": true,
+                "syntaxTree": {
+                  "type": "Program",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "Identifier",
+                          "name": "$view",
+                          "range": [
+                            0,
+                            5
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 1,
+                              "column": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 5
+                            }
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "scale",
+                          "range": [
+                            6,
+                            11
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 1,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 11
+                            }
+                          }
+                        },
+                        "range": [
+                          0,
+                          11
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 11
+                          }
+                        }
+                      },
+                      "range": [
+                        0,
+                        11
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 11
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    0,
+                    11
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 11
+                    }
+                  },
+                  "loadedModules": {},
+                  "usesFeatureSet": false,
+                  "usesModules": false,
+                  "usesGeometry": false
+                },
+                "isScaleDriven": true,
+                "dependsOnView": true,
+                "dependsOnGeometry": false,
+                "isJSFunc": false,
+                "ipData": [
+                  1128.4971765,
+                  9027.977411,
+                  72223.819286,
+                  577790.5542885
+                ]
+              },
+              "minSize": null,
+              "maxSize": null
+            },
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "url": "${appPath}/configs/InfoSummary/base64Img_widgets_InfoSummary_Widget_33_1_1681491489741.png",
+            "width": 26,
+            "height": 26,
+            "contentType": "image/png",
+            "imageData": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA9.png",
+            "size": 16,
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "visualVariables": [
+            {
+              "type": "sizeInfo",
+              "valueExpression": "$view.scale",
+              "stops": [
+                {
+                  "size": 40,
+                  "value": 1128.4971765
+                },
+                {
+                  "size": 32,
+                  "value": 9027.977411
+                },
+                {
+                  "size": 16,
+                  "value": 72223.819286
+                },
+                {
+                  "size": 8,
+                  "value": 577790.5542885
+                }
+              ]
+            }
+          ],
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-13\" y=\"-13\" width=\"26\" height=\"26\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></image></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+        "userDefinedSymbol": true,
+        "layerId": "18780720e8b-layer-2",
+        "featureDisplayOptions": {
+          "groupEnabled": true,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "nombre",
+              "label": ""
+            },
+            {
+              "name": "artista"
+            },
+            {
+              "name": "distintivo",
+              "label": ""
+            }
+          ],
+          "groupField": {
+            "name": "seccion",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          },
+          "layerOptionsSortOrder": "ASC",
+          "groupFeaturesSortOrder": "ASC"
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "18780720e8b-layer-2",
+      "renderer": {
+        "_cache": {
+          "0": {
+            "root": {
+              "attributeInfo": {
+                "type": "sizeInfo",
+                "valueExpression": "$view.scale",
+                "stops": [
+                  {
+                    "size": 53.33333333333333,
+                    "value": 1128.4971765
+                  },
+                  {
+                    "size": 42.666666666666664,
+                    "value": 9027.977411
+                  },
+                  {
+                    "size": 21.333333333333332,
+                    "value": 72223.819286
+                  },
+                  {
+                    "size": 10.666666666666666,
+                    "value": 577790.5542885
+                  }
+                ]
+              },
+              "isNumeric": true,
+              "idSource": "$view.scale",
+              "id": "69d17ad7e61d54df025c5c639d87a61a",
+              "hasExpr": true,
+              "syntaxTree": {
+                "type": "Program",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "$view",
+                        "range": [
+                          0,
+                          5
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 5
+                          }
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "scale",
+                        "range": [
+                          6,
+                          11
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 6
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 11
+                          }
+                        }
+                      },
+                      "range": [
+                        0,
+                        11
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 11
+                        }
+                      }
+                    },
+                    "range": [
+                      0,
+                      11
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 11
+                      }
+                    }
+                  }
+                ],
+                "range": [
+                  0,
+                  11
+                ],
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 11
+                  }
+                },
+                "loadedModules": {},
+                "usesFeatureSet": false,
+                "usesModules": false,
+                "usesGeometry": false
+              },
+              "isScaleDriven": true,
+              "dependsOnView": true,
+              "dependsOnGeometry": false,
+              "isJSFunc": false,
+              "ipData": [
+                1128.4971765,
+                9027.977411,
+                72223.819286,
+                577790.5542885
+              ]
+            },
+            "minSize": null,
+            "maxSize": null
+          },
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "url": "${appPath}/configs/InfoSummary/base64Img_widgets_InfoSummary_Widget_33_2_1681491489742.png",
+          "width": 12,
+          "height": 12,
+          "contentType": "image/png",
+          "imageData": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA9.png",
+          "size": 16,
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "visualVariables": [
+          {
+            "type": "sizeInfo",
+            "valueExpression": "$view.scale",
+            "stops": [
+              {
+                "size": 53.33333333333333,
+                "value": 1128.4971765
+              },
+              {
+                "size": 42.666666666666664,
+                "value": 9027.977411
+              },
+              {
+                "size": 21.333333333333332,
+                "value": 72223.819286
+              },
+              {
+                "size": 10.666666666666666,
+                "value": 577790.5542885
+              }
+            ]
+          }
+        ],
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeString",
+          "alias": "objectid",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "id_falla",
+          "type": "esriFieldTypeString",
+          "alias": "id_falla",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "nombre",
+          "type": "esriFieldTypeString",
+          "alias": "nombre",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "seccion",
+          "type": "esriFieldTypeString",
+          "alias": "seccion",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "fallera",
+          "type": "esriFieldTypeString",
+          "alias": "fallera",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "presidente",
+          "type": "esriFieldTypeString",
+          "alias": "presidente",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "artista",
+          "type": "esriFieldTypeString",
+          "alias": "artista",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "lema",
+          "type": "esriFieldTypeString",
+          "alias": "lema",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "anyo_funda",
+          "type": "esriFieldTypeString",
+          "alias": "anyo_funda",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "distintivo",
+          "type": "esriFieldTypeString",
+          "alias": "distintivo",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "boceto",
+          "type": "esriFieldTypeString",
+          "alias": "boceto",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "experim",
+          "type": "esriFieldTypeString",
+          "alias": "experim",
+          "length": 255,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "popupElements": [
+            {
+              "type": "fields",
+              "description": "",
+              "fieldInfos": [
+                {
+                  "fieldName": "nombre",
+                  "isEditable": true,
+                  "label": "Nombre",
+                  "visible": true
+                },
+                {
+                  "fieldName": "seccion",
+                  "isEditable": true,
+                  "label": "Sección",
+                  "visible": true
+                },
+                {
+                  "fieldName": "anyo_funda",
+                  "isEditable": true,
+                  "label": "Año Fundación",
+                  "visible": true
+                },
+                {
+                  "fieldName": "artista",
+                  "isEditable": true,
+                  "label": "Artista",
+                  "visible": true
+                },
+                {
+                  "fieldName": "boceto",
+                  "isEditable": true,
+                  "label": "boceto",
+                  "visible": true
+                },
+                {
+                  "fieldName": "distintivo",
+                  "isEditable": true,
+                  "label": "Distintivo",
+                  "visible": true
+                },
+                {
+                  "fieldName": "experim",
+                  "isEditable": true,
+                  "label": "experim",
+                  "visible": true
+                },
+                {
+                  "fieldName": "fallera",
+                  "isEditable": true,
+                  "label": "Fallera",
+                  "visible": true
+                },
+                {
+                  "fieldName": "id_falla",
+                  "isEditable": true,
+                  "label": "id_falla",
+                  "visible": true
+                },
+                {
+                  "fieldName": "lema",
+                  "isEditable": true,
+                  "label": "Lema",
+                  "visible": true
+                },
+                {
+                  "fieldName": "presidente",
+                  "isEditable": true,
+                  "label": "Presidente",
+                  "visible": true
+                }
+              ],
+              "title": ""
+            },
+            {
+              "type": "media",
+              "description": "",
+              "mediaInfos": [
+                {
+                  "altText": "",
+                  "caption": "",
+                  "title": "",
+                  "type": "image",
+                  "value": {
+                    "linkURL": "",
+                    "sourceURL": ""
+                  }
+                }
+              ],
+              "title": ""
+            }
+          ],
+          "mediaInfos": [
+            {
+              "altText": "",
+              "caption": "",
+              "title": "",
+              "type": "image",
+              "value": {
+                "linkURL": "",
+                "sourceURL": ""
+              }
+            }
+          ],
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "label": "FID",
+              "visible": false
+            },
+            {
+              "fieldName": "anyo_funda",
+              "isEditable": true,
+              "label": "Año Fundación",
+              "visible": true
+            },
+            {
+              "fieldName": "artista",
+              "isEditable": true,
+              "label": "Artista",
+              "visible": true
+            },
+            {
+              "fieldName": "boceto",
+              "isEditable": true,
+              "label": "boceto",
+              "visible": true
+            },
+            {
+              "fieldName": "distintivo",
+              "isEditable": true,
+              "label": "Distintivo",
+              "visible": true
+            },
+            {
+              "fieldName": "experim",
+              "isEditable": true,
+              "label": "experim",
+              "visible": true
+            },
+            {
+              "fieldName": "fallera",
+              "isEditable": true,
+              "label": "Fallera",
+              "visible": true
+            },
+            {
+              "fieldName": "id_falla",
+              "isEditable": true,
+              "label": "id_falla",
+              "visible": true
+            },
+            {
+              "fieldName": "lema",
+              "isEditable": true,
+              "label": "Lema",
+              "visible": true
+            },
+            {
+              "fieldName": "nombre",
+              "isEditable": true,
+              "label": "Nombre",
+              "visible": true
+            },
+            {
+              "fieldName": "objectid",
+              "isEditable": true,
+              "label": "objectid",
+              "visible": false
+            },
+            {
+              "fieldName": "presidente",
+              "isEditable": true,
+              "label": "Presidente",
+              "visible": true
+            },
+            {
+              "fieldName": "seccion",
+              "isEditable": true,
+              "label": "Sección",
+              "visible": true
+            }
+          ],
+          "title": "Fallas Valencia 2023 - {nombre}"
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "anyo_funda": "Año Fundación",
+          "artista": "Artista",
+          "boceto": "boceto",
+          "distintivo": "Distintivo",
+          "experim": "experim",
+          "fallera": "Fallera",
+          "id_falla": "id_falla",
+          "lema": "Lema",
+          "nombre": "Nombre",
+          "objectid": "objectid",
+          "presidente": "Presidente",
+          "seccion": "Sección"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "label": "FID",
+            "visible": false
+          },
+          "anyo_funda": {
+            "fieldName": "anyo_funda",
+            "isEditable": true,
+            "label": "Año Fundación",
+            "visible": true
+          },
+          "artista": {
+            "fieldName": "artista",
+            "isEditable": true,
+            "label": "Artista",
+            "visible": true
+          },
+          "boceto": {
+            "fieldName": "boceto",
+            "isEditable": true,
+            "label": "boceto",
+            "visible": true
+          },
+          "distintivo": {
+            "fieldName": "distintivo",
+            "isEditable": true,
+            "label": "Distintivo",
+            "visible": true
+          },
+          "experim": {
+            "fieldName": "experim",
+            "isEditable": true,
+            "label": "experim",
+            "visible": true
+          },
+          "fallera": {
+            "fieldName": "fallera",
+            "isEditable": true,
+            "label": "Fallera",
+            "visible": true
+          },
+          "id_falla": {
+            "fieldName": "id_falla",
+            "isEditable": true,
+            "label": "id_falla",
+            "visible": true
+          },
+          "lema": {
+            "fieldName": "lema",
+            "isEditable": true,
+            "label": "Lema",
+            "visible": true
+          },
+          "nombre": {
+            "fieldName": "nombre",
+            "isEditable": true,
+            "label": "Nombre",
+            "visible": true
+          },
+          "objectid": {
+            "fieldName": "objectid",
+            "isEditable": true,
+            "label": "objectid",
+            "visible": false
+          },
+          "presidente": {
+            "fieldName": "presidente",
+            "isEditable": true,
+            "label": "Presidente",
+            "visible": true
+          },
+          "seccion": {
+            "fieldName": "seccion",
+            "isEditable": true,
+            "label": "Sección",
+            "visible": true
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"visualVariables\":[{\"type\":\"sizeInfo\",\"valueExpression\":\"$view.scale\",\"stops\":[{\"size\":40,\"value\":1128.4971765},{\"size\":32,\"value\":9027.977411},{\"size\":16,\"value\":72223.819286},{\"size\":8,\"value\":577790.5542885}]}],\"type\":\"simple\",\"symbol\":{\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriPMS\",\"url\":\"https://static.arcgis.com/images/Symbols/Firefly/FireflyA9.png\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsRAAALEQF/ZF+RAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8yMS8xN85GMlQAAAfWSURBVGhD7dpbrKXjGQfwTU3VqaqOLYqWOsa5UYRoHSIObZOGpkWIQwghGqeEaLkgJASJU+KiUkSnnZERLoxxIcGFC5Nwy6UbV3rjYs+Y/Xl+K99/e/c3a81ec+G0YiX/8eV9n9P/fQ7vt9Y2N+mzadOmuYWFhbmu60b/hf/Md9v02Lbwgx7b9VjR44dTIvLRjz22R37iNzGIaas+IRH0hjkIgWHg2xd+1GOHwo7LgEzk6Q6JjSUEU5NpScRQb7Ql0AafwHcq7FzYpfDjZUCGLJ2WWEtqIqFlyYwhMYlAgm8D/0lht8JPC7v32GOArJMhSyfEWlITCS1LZhkS4wi0wQtuz8Jehb0L+xR+Vvj5ANbskSFLhy4buxbYZHtIaHoyIUKwV6CYLKSEkgEEnKpTFpDgBLpf4ReFAwoHFg4awJo9MmTp0GWDLTbZTunxyXeys4TMZkSmIJEsODWnFwJOOMEL9FeFQwq/LhxaOGwAa/bIkKUTUmyFUDKU7ExHpiEyiYQTYtiJKQenuG/B6f6yIDCBHlE4qnB04djCcQNYs0eGLB26bLDFJtt88MUn32PJLCEyyAaB9ERLQrrVshNTDvsXnGYICOyYwvGF3xROKpxcOGUAa/bIkKVDN4TYZJsPvvhMqbVk0jNfZsU/Fgqy0TY2RakNCQ3KgZNTFspEEE75xMJvC6cWTi/8rnBm4awBrNkjQ5YOXTbYYpNtPvjiM2RSZu0AGJXYiMggG9KW6ZSeCImU0sGFwwtK5ISCYE4rCPDswrmF8wsXFv44gDV7ZMjSocsGW2yyzUdKLWTSM5lmKbFRVsZlQ/rMdKNQnUpxS0JtO0Hl4VQFc05BgIL9c+Evhb8WLhnAmj0yZOnQZYMtNtnmoyUjBrGISWxtiY2yMi4b6QuTQ9OZJkMS6txJKpfzCn8qXFT4W+HywlWFawrXFq7r4dmaPTJk6dBlgy022R6SEYNYxJR+WZIVRIbZaEvKBNF86lbKQ0KNK40LCk5XUFcUBHp94abC3wu3FG7t4dmaPTJk6dBlgy022Q4ZPvkWg1jaEluSlZbIMBspKZNEE6pfqXdqHKp3J3ppwSkL7ubC7YU7C3cX7inc28OzNXtkyNKhywZbbLLNB1988i2GlNgwK4tEUlbpDYxdStLpsjIWjyxoRnWsBJwex5cVnOyNBad+V0HQ9xceLDxUeLiHZ2v2yJClQ5cNtthkmw+++ORbDGIRk9jEmF4ZlRciKSvTYFw2zHhpNlk0pXpWCk5RAErljsI/CvcVBPxY4fHCU4Wne3i2Zo8MWTp02WCLTbb54ItPvsUwLitiHpVXiKSsMqnUoxPQbOa7WS/dJozmVNdXF5ymQJTNA4VHCk8Wnin8q/DvwnM9PFuzR4YsHbpssMUm23zwxSffYhCLmMSWCbZYXohkWrVl5TLygqc+3b7JhnF5cUGT3lC4rfDPgoAeLTh5wb5QWFlYVVjdw7M1e2TI0qHLBltsss0HX8mKGMQiJrG15SX2FSGSaeUGlTovcd5/jECvEupVE5r97gNlYAKpczXvdAX2bOHFwksr57tX/zffrS2s67HWmr1ehiwdumywxSbbfPDFJ99iEIuYxCbG3PajPgmRtj/cpMZdysr0MBLdxurXHWDamDyaVr0rFaf8YgW7poJ+ffV89/aaDd17L2/oPgDP1uyRIdvr0GWDLTbZ5oMvPvkWQ8pLbGJs+2REpG30tj+8bht/ZvoZhZTVlQXNaYw6Sc2r7p8vrBboS/Pdu69s6D58Y0P3yZsbu0/BszV7ZMj2OnTZYItNtvlIefEtBrGIqe2TxYYPkTS6Cyc3edsfvy+Y8V4xUlbuBOP0iYKTXal06tTfqYA/emtj9/+PN3Wff7bQLYBna/bI9GWmZ+iywRabKS+++OS77ZPc9GJNw08koqkydr16e2v9Q8FE8arhljZtlISxaiKt+u9891qV0Pp1dfoC39h13UIPz9bsKTOydHpdNthik20++OKTbzFkDIttq4n4MuR7hAsqje69yUWmpl10GtZ4VVbrqh/eV0qygEA+nq3ZI0OWTq/LBltsss1HGp5vMYjleyJfVWmt/7pK6zvb7DMxfmfmQpypV5SZeGmcmdf4mfliNc1XXSfyTX3V5Xuqr7p+fEifSNW4rKhP48/0kG5NaMZz7BS/yR8fxL7kVxQpyvRKVtSjcfdt+Tko2ci0GpVVYURkZn6gm42fTGfmR+yZ+bOCfwZZaUss/RIyUsyB5jNJjEUzXhBuX68SykOde/X2PaKFNXtkyNKhywZbbLLNB18hkb5oS2oxGyMig79aYTiJjNSqU01ngqTUvP+EkNoWmBJxyr4MtbBmjwzZEGAjpcQ2H3zxOYnE0j+9+QyyEjJqsCWTnjE5jEEnZpp4iXNZOU1lITCv28pEoC2s2SNDlg5dNthik20+0hMtifTFqKQ2I+IzBZkMgJSaEwshp6gcQsrpesETaAtr9hI8HbohwGZKiS8+pyfhEyJjyKTMMs2SHaOQU6enlpWDgDSo4JywQFtYs0eGLB26yQCbyUKmE9+L5VQYkZhIxGcZMsnOkJDTa0k5VcGBU26RdTJk6dBlw/0wJMDn1pHIZwyZLRFKyQlAIC2xLSGl0wbP1kQCMDWJfFoyDSEGh4SGpFpiW0ICHwa/RQIwNYl8Qqb7TvyPZ3NzXwDPYO+47f5algAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":9,\"height\":9}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-14\" y=\"-14\" width=\"28\" height=\"28\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsRAAALEQF/ZF+RAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8yMS8xN85GMlQAAAfWSURBVGhD7dpbrKXjGQfwTU3VqaqOLYqWOsa5UYRoHSIObZOGpkWIQwghGqeEaLkgJASJU+KiUkSnnZERLoxxIcGFC5Nwy6UbV3rjYs+Y/Xl+K99/e/c3a81ec+G0YiX/8eV9n9P/fQ7vt9Y2N+mzadOmuYWFhbmu60b/hf/Md9v02Lbwgx7b9VjR44dTIvLRjz22R37iNzGIaas+IRH0hjkIgWHg2xd+1GOHwo7LgEzk6Q6JjSUEU5NpScRQb7Ql0AafwHcq7FzYpfDjZUCGLJ2WWEtqIqFlyYwhMYlAgm8D/0lht8JPC7v32GOArJMhSyfEWlITCS1LZhkS4wi0wQtuz8Jehb0L+xR+Vvj5ANbskSFLhy4buxbYZHtIaHoyIUKwV6CYLKSEkgEEnKpTFpDgBLpf4ReFAwoHFg4awJo9MmTp0GWDLTbZTunxyXeys4TMZkSmIJEsODWnFwJOOMEL9FeFQwq/LhxaOGwAa/bIkKUTUmyFUDKU7ExHpiEyiYQTYtiJKQenuG/B6f6yIDCBHlE4qnB04djCcQNYs0eGLB26bLDFJtt88MUn32PJLCEyyAaB9ERLQrrVshNTDvsXnGYICOyYwvGF3xROKpxcOGUAa/bIkKVDN4TYZJsPvvhMqbVk0jNfZsU/Fgqy0TY2RakNCQ3KgZNTFspEEE75xMJvC6cWTi/8rnBm4awBrNkjQ5YOXTbYYpNtPvjiM2RSZu0AGJXYiMggG9KW6ZSeCImU0sGFwwtK5ISCYE4rCPDswrmF8wsXFv44gDV7ZMjSocsGW2yyzUdKLWTSM5lmKbFRVsZlQ/rMdKNQnUpxS0JtO0Hl4VQFc05BgIL9c+Evhb8WLhnAmj0yZOnQZYMtNtnmoyUjBrGISWxtiY2yMi4b6QuTQ9OZJkMS6txJKpfzCn8qXFT4W+HywlWFawrXFq7r4dmaPTJk6dBlgy022R6SEYNYxJR+WZIVRIbZaEvKBNF86lbKQ0KNK40LCk5XUFcUBHp94abC3wu3FG7t4dmaPTJk6dBlgy022Q4ZPvkWg1jaEluSlZbIMBspKZNEE6pfqXdqHKp3J3ppwSkL7ubC7YU7C3cX7inc28OzNXtkyNKhywZbbLLNB1988i2GlNgwK4tEUlbpDYxdStLpsjIWjyxoRnWsBJwex5cVnOyNBad+V0HQ9xceLDxUeLiHZ2v2yJClQ5cNtthkmw+++ORbDGIRk9jEmF4ZlRciKSvTYFw2zHhpNlk0pXpWCk5RAErljsI/CvcVBPxY4fHCU4Wne3i2Zo8MWTp02WCLTbb54ItPvsUwLitiHpVXiKSsMqnUoxPQbOa7WS/dJozmVNdXF5ymQJTNA4VHCk8Wnin8q/DvwnM9PFuzR4YsHbpssMUm23zwxSffYhCLmMSWCbZYXohkWrVl5TLygqc+3b7JhnF5cUGT3lC4rfDPgoAeLTh5wb5QWFlYVVjdw7M1e2TI0qHLBltsss0HX8mKGMQiJrG15SX2FSGSaeUGlTovcd5/jECvEupVE5r97gNlYAKpczXvdAX2bOHFwksr57tX/zffrS2s67HWmr1ehiwdumywxSbbfPDFJ99iEIuYxCbG3PajPgmRtj/cpMZdysr0MBLdxurXHWDamDyaVr0rFaf8YgW7poJ+ffV89/aaDd17L2/oPgDP1uyRIdvr0GWDLTbZ5oMvPvkWQ8pLbGJs+2REpG30tj+8bht/ZvoZhZTVlQXNaYw6Sc2r7p8vrBboS/Pdu69s6D58Y0P3yZsbu0/BszV7ZMj2OnTZYItNtvlIefEtBrGIqe2TxYYPkTS6Cyc3edsfvy+Y8V4xUlbuBOP0iYKTXal06tTfqYA/emtj9/+PN3Wff7bQLYBna/bI9GWmZ+iywRabKS+++OS77ZPc9GJNw08koqkydr16e2v9Q8FE8arhljZtlISxaiKt+u9891qV0Pp1dfoC39h13UIPz9bsKTOydHpdNthik20++OKTbzFkDIttq4n4MuR7hAsqje69yUWmpl10GtZ4VVbrqh/eV0qygEA+nq3ZI0OWTq/LBltsss1HGp5vMYjleyJfVWmt/7pK6zvb7DMxfmfmQpypV5SZeGmcmdf4mfliNc1XXSfyTX3V5Xuqr7p+fEifSNW4rKhP48/0kG5NaMZz7BS/yR8fxL7kVxQpyvRKVtSjcfdt+Tko2ci0GpVVYURkZn6gm42fTGfmR+yZ+bOCfwZZaUss/RIyUsyB5jNJjEUzXhBuX68SykOde/X2PaKFNXtkyNKhywZbbLLNB18hkb5oS2oxGyMig79aYTiJjNSqU01ngqTUvP+EkNoWmBJxyr4MtbBmjwzZEGAjpcQ2H3zxOYnE0j+9+QyyEjJqsCWTnjE5jEEnZpp4iXNZOU1lITCv28pEoC2s2SNDlg5dNthik20+0hMtifTFqKQ2I+IzBZkMgJSaEwshp6gcQsrpesETaAtr9hI8HbohwGZKiS8+pyfhEyJjyKTMMs2SHaOQU6enlpWDgDSo4JywQFtYs0eGLB26yQCbyUKmE9+L5VQYkZhIxGcZMsnOkJDTa0k5VcGBU26RdTJk6dBlw/0wJMDn1pHIZwyZLRFKyQlAIC2xLSGl0wbP1kQCMDWJfFoyDSEGh4SGpFpiW0ICHwa/RQIwNYl8Qqb7TvyPZ3NzXwDPYO+47f5algAAAABJRU5ErkJggg==\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></image></svg></div>"
+    }
+  ],
+  "mapID": "1948a34cfd1543fd8ea1d10dcd0f427b",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": false,
+  "showAllFeatures": false,
+  "upgradeFields": false,
+  "displayClusterLayer": true
+}
